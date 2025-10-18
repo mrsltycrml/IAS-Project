@@ -16,3 +16,6 @@
 ## Notes
 - Make sure your repo is public for GitHub Pages to work.
 - If you change your repo name, update `next.config.ts` accordingly.
+
+const repoName = 'IAS-Project';
+assetPrefix: '/IAS-Project/'
