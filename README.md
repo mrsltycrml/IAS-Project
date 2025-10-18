@@ -1,4 +1,6 @@
-# School Showcase
+# IAS-Project - School Showcase
+
+A students portfolio built with NextJS and Firebase Studio.
 
 This is a NextJS starter in Firebase Studio.
 
