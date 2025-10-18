@@ -1,0 +1,76 @@
+{
+  "placeholderImages": [
+    {
+      "id": "user-avatar",
+      "description": "User avatar for the header",
+      "imageUrl": "/profile.jpg",
+      "imageHint": "My profile photo"
+    },
+    {
+      "id": "user-profile",
+      "description": "User profile picture for the about page",
+      "imageUrl": "/profile.jpg",
+      "imageHint": "My profile photo"
+    },
+    {
+      "id": "burp-suite",
+      "description": "Burp Suite topic image",
+      "imageUrl": "/burp-suite.png",
+      "imageHint": "burp suite"
+    },
+    {
+      "id": "cloud-virtualization",
+      "description": "Cloud Virtualization topic image",
+      "imageUrl": "/cloud.jpg",
+      "imageHint": "virtualization cloud computing"
+    },
+    {
+      "id": "xss",
+      "description": "Cross Site Scripting topic image",
+      "imageUrl": "/xss.png",
+      "imageHint": "cross site scripting"
+    },
+    {
+      "id": "intro-web-security",
+      "description": "Web Security topic image",
+      "imageUrl": "/web-security.jpg",
+      "imageHint": "web security"
+    },
+    {
+      "id": "path-traversal",
+      "description": "Path Traversal topic image",
+      "imageUrl": "/path-traversal.webp",
+      "imageHint": "path traversal"
+    },
+    {
+      "id": "sql-injection",
+      "description": "SQL Injection topic image",
+      "imageUrl": "/sql-injection.webp",
+      "imageHint": "sql injection"
+    },
+    {
+      "id": "os-command-injection",
+      "description": "OS Command Injection topic image",
+      "imageUrl": "/os-command-injection.png",
+      "imageHint": "os command injection"
+    },
+    {
+      "id": "encryption-fundamentals",
+      "description": "Encryption Fundamentals topic image",
+      "imageUrl": "/encryption.png",
+      "imageHint": "encryption fundamentals"
+    },
+    {
+      "id": "careers-it-security",
+      "description": "Careers in IT Security topic image",
+      "imageUrl": "/cyber-sec.png",
+      "imageHint": "careers in IT security"
+    },
+    {
+      "id": "it-security",
+      "description": "IT Security topic image",
+      "imageUrl": "/cyber-sec.png",
+      "imageHint": "it security"
+    }
+  ]
+}
