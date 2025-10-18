@@ -4,8 +4,13 @@ import { Toaster } from '@/components/ui/toaster';
 import Header from '@/components/common/Header';
 
 export const metadata: Metadata = {
-  title: 'School Showcase',
+  title: 'IAS-Project - Portfolio',
   description: 'A portfolio of my work and achievements during my school years.',
+  icons: {
+    icon: '/DINOSAUR.png',
+    shortcut: '/DINOSAUR.png',
+    apple: '/DINOSAUR.png',
+  },
 };
 
 export default function RootLayout({
