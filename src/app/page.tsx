@@ -50,38 +50,35 @@ export default function Home() {
           {notes.map((note) => {
             const noteImage = noteImages.get(note.imageId);
             return (
-              <Card
-                key={note.id}
-                className="flex flex-col overflow-hidden hover:shadow-xl transition-shadow duration-300"
-              >
-                <CardHeader className="p-0">
-                  {noteImage && (
-                    <div className="aspect-video relative">
-                      <Image
-                        src={noteImage.imageUrl}
-                        alt={note.title}
-                        fill
-                        className="object-cover"
-                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                        data-ai-hint={noteImage.imageHint}
-                      />
+              <Link key={note.id} href={`/notes/${note.id}`}>
+                <Card className="flex flex-col overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer hover:scale-105">
+                  <CardHeader className="p-0">
+                    {noteImage && (
+                      <div className="aspect-video relative">
+                        <Image
+                          src={noteImage.imageUrl}
+                          alt={note.title}
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                          data-ai-hint={noteImage.imageHint}
+                        />
+                      </div>
+                    )}
+                    <div className="p-6">
+                      <CardTitle className="text-xl font-semibold mb-2">{note.title}</CardTitle>
+                      <CardDescription className="text-muted-foreground leading-relaxed h-20 overflow-hidden">
+                        {note.snippet}
+                      </CardDescription>
                     </div>
-                  )}
-                  <div className="p-6">
-                    <CardTitle className="text-xl font-semibold mb-2">{note.title}</CardTitle>
-                    <CardDescription className="text-muted-foreground leading-relaxed h-20 overflow-hidden">
-                      {note.snippet}
-                    </CardDescription>
-                  </div>
-                </CardHeader>
-                <CardContent className="mt-auto p-6 pt-0">
-                  <Button asChild variant="link" className="p-0 h-auto text-accent-foreground font-semibold">
-                    <Link href={`/notes/${note.id}`}>
+                  </CardHeader>
+                  <CardContent className="mt-auto p-6 pt-0">
+                    <div className="flex items-center text-accent-foreground font-semibold">
                       Read More <ArrowRight className="ml-2 h-4 w-4" />
-                    </Link>
-                  </Button>
-                </CardContent>
-              </Card>
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
             );
           })}
         </div>
