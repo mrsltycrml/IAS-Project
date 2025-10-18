@@ -18,9 +18,6 @@ export default function Home() {
     PlaceHolderImages.map((img) => [img.id, img])
   );
 
-  // Debug: Log the userAvatar to see if it's found
-  console.log('userAvatar found:', userAvatar);
-
   return (
     <div className="py-8 md:py-12 animate-in fade-in-0 duration-700">
       <section className="flex flex-col md:flex-row items-center gap-8 mb-12 md:mb-16">

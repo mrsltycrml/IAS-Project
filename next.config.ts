@@ -1,9 +1,9 @@
 import type {NextConfig} from 'next';
 
-const repoName = 'YOUR_REPO_NAME'; // <-- Replace with your GitHub repo name
 const nextConfig: NextConfig = {
-  output: 'export',
-  assetPrefix: `/${repoName}/`,
+  // Remove static export for Vercel deployment
+  // output: 'export',
+  // assetPrefix: `/${repoName}/`,
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -32,7 +32,8 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
     ],
-    unoptimized: true,
+    // Remove unoptimized for Vercel
+    // unoptimized: true,
   },
 };
 
