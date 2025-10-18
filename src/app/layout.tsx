@@ -7,9 +7,9 @@ export const metadata: Metadata = {
   title: 'IAS-Project - Portfolio',
   description: 'A portfolio of my work and achievements during my school years.',
   icons: {
-    icon: '/DINOSAUR.png',
-    shortcut: '/DINOSAUR.png',
-    apple: '/DINOSAUR.png',
+    icon: '/icon.png',
+    shortcut: '/icon.png',
+    apple: '/icon.png',
   },
 };
 
