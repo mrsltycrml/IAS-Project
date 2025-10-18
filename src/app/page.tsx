@@ -19,7 +19,7 @@ export default function Home() {
   );
 
   return (
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 animate-in fade-in-0 duration-700">
+    <div className="py-8 md:py-12 animate-in fade-in-0 duration-700">
       <section className="flex flex-col md:flex-row items-center gap-8 mb-12 md:mb-16">
         {userAvatar && (
           <Image

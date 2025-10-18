@@ -6,7 +6,7 @@ export default function AboutPage() {
   const userProfileImage = PlaceHolderImages.find((img) => img.id === 'user-profile');
 
   return (
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 animate-in fade-in-0 duration-700">
+    <div className="py-12 md:py-16 animate-in fade-in-0 duration-700">
       <Card className="overflow-hidden">
         <div className="md:grid md:grid-cols-3 md:gap-8">
           <div className="md:col-span-1 p-6 flex justify-center items-center">
@@ -26,6 +26,9 @@ export default function AboutPage() {
               <CardTitle className="text-4xl font-bold tracking-tight">
                 About Me
               </CardTitle>
+              <h2 className="text-2xl font-semibold text-foreground mt-2">
+                Carlos Miguel F. Busuego
+              </h2>
             </CardHeader>
             <CardContent className="space-y-6 text-lg text-muted-foreground">
               <p>
